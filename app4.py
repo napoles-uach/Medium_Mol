@@ -11,7 +11,7 @@ def makeblock(smi):
     mol = Chem.MolFromSmiles(smi)
     mol = Chem.AddHs(mol)
     AllChem.EmbedMolecule(mol)
-    AllChem.MMFFOptimizeMolecule(mol, maxIters=200)
+    #AllChem.MMFFOptimizeMolecule(mol, maxIters=200)
     mblock = Chem.MolToMolBlock(mol)
     return mblock
 
