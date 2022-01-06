@@ -1,2 +1,4 @@
 rdkit-pypi
 Pillow
+py3Dmol
+stmol
