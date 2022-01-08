@@ -7,8 +7,13 @@ prot_list=prot_str.split(',')
 bcolor = st.sidebar.color_picker('Pick A Color', '#00f900')
 protein=st.sidebar.selectbox('select protein',prot_list)
 style = st.sidebar.selectbox('style',['line','cross','stick','sphere','cartoon','clicksphere'])
+spin = st.sidebar.checkbox('Spin', value = False)
 xyzview = py3Dmol.view(query='pdb:'+protein)
 xyzview.setStyle({style:{'color':'spectrum'}})
 xyzview.setBackgroundColor(bcolor)
+if spin:
+    xyzview.spin(True)
+else:
+    xyzview.spin(False)
 xyzview.zoomTo()
 showmol(xyzview,height=500,width=800)
