@@ -9,12 +9,15 @@ You will see somehting like this:
 
 ![](https://raw.githubusercontent.com/napoles-uach/Medium_Mol/main/molapp.png)
 
+app2:
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/napoles-uach/medium_mol/main/app2.py)
 
+app3:
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/napoles-uach/medium_mol/main/app3.py)
 
+app4:
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/napoles-uach/medium_mol/main/app4.py)
 
