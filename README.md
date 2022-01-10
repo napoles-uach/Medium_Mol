@@ -5,10 +5,6 @@ The app1 is minimal and just shows an image. If you want to see it, click the ba
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/napoles-uach/medium_mol/main/app1.py)
 
-You will see somehting like this:
-
-![](https://raw.githubusercontent.com/napoles-uach/Medium_Mol/main/molapp.png)
-
 app2:
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/napoles-uach/medium_mol/main/app2.py)
