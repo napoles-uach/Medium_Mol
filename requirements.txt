@@ -2,3 +2,4 @@ rdkit-pypi
 Pillow
 py3Dmol
 stmol
+ipython_genutils
